@@ -52,5 +52,5 @@ describe('HTTP app', () => {
             .then(response => {
                 assert.equal(response.status, 404);
             }); 
-    })
+    });
 });
